@@ -6,9 +6,21 @@ target 'PeakyChats' do
   use_frameworks!
 
   # Pods for PeakyChats
-
+# Firebase
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+
+# Facebook
+
+pod 'FBSDKCoreKit'
+pod 'FBSDKShareKit'
+pod 'FBSDKLoginKit'
+
+
+#Google
+pod "GoogleSignIn"
+
+
 
 end

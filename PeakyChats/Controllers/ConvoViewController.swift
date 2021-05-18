@@ -13,13 +13,15 @@ class ConvoViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
         
         
         
         
         
     }
+    
+    
     
     override func viewDidAppear(_ animated: Bool) {
         super .viewDidAppear(animated)
